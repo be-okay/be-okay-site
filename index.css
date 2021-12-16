@@ -161,6 +161,12 @@ section {
 section h2 {
   text-align: center;
   font-weight: 700;
+  background-color: #F2F4F3;
+  margin: 0 10% 0 10%;
+}
+
+section h4 {
+  text-align: center;
 }
 
 p {
