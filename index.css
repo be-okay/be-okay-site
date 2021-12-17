@@ -16,7 +16,7 @@ body {
 }
 
 header {
-  color: #00171F;
+  color: #332b00;
   margin: auto;
   text-align: center;
   -webkit-box-align: center;
@@ -89,8 +89,8 @@ nav {
 }
 
 a:hover {
-  -webkit-box-shadow: 1px 1px 4px #00171F;
-          box-shadow: 1px 1px 4px #00171F;
+  -webkit-box-shadow: 1px 1px 4px #332b00;
+          box-shadow: 1px 1px 4px #332b00;
   cursor: pointer;
 }
 
@@ -103,7 +103,7 @@ a:link, a:visited {
   height: 100%;
   max-height: 100%;
   border: none;
-  color: #00171F;
+  color: #332b00;
   background-color: inherit;
   text-align: center;
   -webkit-transition-duration: 0.4s;
@@ -125,7 +125,7 @@ main {
   width: 100vw;
   min-width: 100vw;
   max-width: 100vw;
-  color: #00171F;
+  color: #332b00;
   padding: 0;
   margin: 0;
   -webkit-box-align: center;
@@ -176,7 +176,7 @@ p {
 
 footer {
   background: #4DAA57;
-  color: #00171F;
+  color: #332b00;
   margin: auto;
   text-align: center;
   -webkit-box-align: center;
