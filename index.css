@@ -1,3 +1,7 @@
+html {
+  overflow-x: hidden;
+}
+
 body {
   font-family: 'Roboto Slab', serif;
   font-weight: 400;
@@ -61,6 +65,9 @@ header div h1 {
 nav {
   background-color: #F2F4F3;
   position: fixed;
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
   top: 0;
   left: 0;
   right: 0;
@@ -102,6 +109,9 @@ a:link, a:visited {
   min-height: 100%;
   height: 100%;
   max-height: 100%;
+  width: 20%;
+  min-width: 20%;
+  max-width: 20%;
   border: none;
   color: #332b00;
   background-color: inherit;
@@ -110,7 +120,6 @@ a:link, a:visited {
   transition-duration: 0.4s;
   text-decoration: none;
   font-weight: 400;
-  text-align: center;
   cursor: pointer;
 }
 
@@ -131,9 +140,9 @@ main {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -141,6 +150,12 @@ main {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+}
+
+main div {
+  width: 100vw;
+  min-width: 100vw;
+  max-width: 100vw;
 }
 
 .text-container {
