@@ -20,7 +20,7 @@ body {
 }
 
 header {
-  color: #332b00;
+  color: #000000;
   margin: auto;
   text-align: center;
   -webkit-box-align: center;
@@ -96,8 +96,8 @@ nav {
 }
 
 a:hover {
-  -webkit-box-shadow: 1px 1px 4px #332b00;
-          box-shadow: 1px 1px 4px #332b00;
+  -webkit-box-shadow: 1px 1px 4px #000000;
+          box-shadow: 1px 1px 4px #000000;
   cursor: pointer;
 }
 
@@ -113,7 +113,7 @@ a:link, a:visited {
   min-width: 20%;
   max-width: 20%;
   border: none;
-  color: #332b00;
+  color: #000000;
   background-color: inherit;
   text-align: center;
   -webkit-transition-duration: 0.4s;
@@ -134,7 +134,7 @@ main {
   width: 100vw;
   min-width: 100vw;
   max-width: 100vw;
-  color: #332b00;
+  color: #000000;
   padding: 0;
   margin: 0;
   -webkit-box-align: center;
@@ -191,7 +191,7 @@ p {
 
 footer {
   background: #4DAA57;
-  color: #332b00;
+  color: #000000;
   margin: auto;
   text-align: center;
   -webkit-box-align: center;
